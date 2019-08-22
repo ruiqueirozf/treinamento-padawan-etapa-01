@@ -53,7 +53,7 @@ public class Exercicio06 {
             } else if (total > 39 && total < 50){
                 System.out.println("total das provas e exercicios: " + total);
                 System.out.println("Vai fazer a Prova2!");
-                recuperacao = ++recuperacao;
+                recuperacao ++;
             } else  {
                 System.out.println("total das provas e exercicios: " + total);
                 System.out.println("Vai fazer a RECUPERACAO10!");
@@ -62,7 +62,7 @@ public class Exercicio06 {
 
             String enter = sc.nextLine();
 
-            System.out.println("Deseja registrar outro aluno ? (s/n)");
+            System.out.println("Deseja registrar outro aluno ? 1 (s/n)");
             char temp = sc.next().charAt(0);
 
             if (temp != 's'){

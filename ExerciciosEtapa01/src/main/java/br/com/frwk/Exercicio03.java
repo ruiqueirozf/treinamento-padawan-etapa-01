@@ -47,6 +47,7 @@ public class Exercicio03 {
             }
 
             System.out.println(nomeAluno + " " + turmaAluno);
+
             if (total >= 60){
                 System.out.println("total das provas e exercicios: " + total);
                 System.out.println("Aprovado!");
